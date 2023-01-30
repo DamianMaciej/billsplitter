@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Billsplitter</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="top">
+            <h1>BillSplitter</h1>
+            <p>Share your bill with your friends.</p>
+        </div>
+        <div class="bottom">
+            <label for="price">Amount to pay: </label>
+            <input type="number" placeholder="total amount of the bill" id="price">
+
+            <label for="people">Number of people: </label>
+            <input type="number" placeholder="how many homies were involved in this procedure" id="people">
+
+            <label for="tip">Tip: </label>
+            <select id="tip">
+                <option value="0" selected>no tip</option>
+                <option value="0.05">5%</option>
+                <option value="0.1">10%</option>
+                <option value="0.15">15%</option>
+                <option value="0.2">20%</option>
+            </select>
+
+            <button class="count">Process</button>
+            <p class="error"></p>
+            <p class="cost-info">Each person should pay <span class="cost"></span> euro.</p>
+        </div>
+
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
