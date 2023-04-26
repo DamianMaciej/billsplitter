@@ -14,14 +14,25 @@
 
         <div class="top">
             <h1>BillSplitter</h1>
-            <p>Share your bill with your friends.</p>
+            <p>Split bill with your friends</p>
         </div>
         <div class="bottom">
-            <label for="price">Amount to pay: </label>
-            <input type="number" placeholder="total amount of the bill" id="price">
+            <label for="price">Total amount to be paid: </label>
+            <input type="number" placeholder="total bill cost" id="price">
+            <select class="currency">
+                <option>USD</option>
+                <option>EUR</option>
+                <option>GBP</option>
+                <option>CHF</option>
+                <option>UAH</option>
+                <option>HRK</option>
+                <option>PLN</option>
+                <option>CZK</option>
+                <option>NOK</option>
+            </select>
 
             <label for="people">Number of people: </label>
-            <input type="number" placeholder="how many homies were involved in this procedure" id="people">
+            <input type="number" placeholder="How many people?" id="people">
 
             <label for="tip">Tip: </label>
             <select id="tip">
@@ -32,9 +43,9 @@
                 <option value="0.2">20%</option>
             </select>
 
-            <button class="count">Process</button>
+            <button class="count">Calc</button>
             <p class="error"></p>
-            <p class="cost-info">Each person should pay <span class="cost"></span> euro.</p>
+            <p class="cost-info">You should submit after <span class="cost"></span> <span class="currency-info"></span>.</p>
         </div>
 
 
