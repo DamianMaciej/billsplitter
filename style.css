@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    max-height: 100vh;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(233, 233, 233);
 }
@@ -27,7 +27,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 200px;
+    height: 130px;
     color: #fff;
     background-color: rgb(49, 117, 60);
     text-transform: uppercase;
@@ -38,7 +38,7 @@ body {
 }
 
 .bottom {
-    padding: 40px 20px;
+    padding: 20px 10px;
 }
 
 label {
@@ -59,7 +59,7 @@ select {
 .count {
     display: block;
     margin: 20px auto;
-    padding: 20px 10px;
+    padding: 15px 5px;
     width: 60%;
     font-size: 24px;
     border-radius: 8px;
@@ -76,8 +76,8 @@ select {
 
 .cost-info {
     display: none;
-    margin-top: 30px;
-    font-size: 20px;
+    font-size: 18px;
+    background-color: #ff9e9ec5;
 }
 
 .cost {
